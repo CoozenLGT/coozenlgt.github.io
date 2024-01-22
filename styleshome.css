@@ -23,10 +23,10 @@ header {
 .logo{
     width: 100px;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     justify-content: left;
-    left: 0%;
-    top: 0%;
+    left: 10px;
+    top: 10px
 }
 
 h1, h2 {
@@ -83,6 +83,16 @@ button{
     color: #2c3e50;
     cursor: pointer 
 }
+
+.contact{
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 footer {
     background-color: #2c3e50;
